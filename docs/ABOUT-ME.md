@@ -1,4 +1,8 @@
-# About Me
+---
+layout: home
+title: About Me
+permalink: /
+---
 
 Hi there! I'm Callum, and I've been doing software engineering and product development for close to four years.
 
