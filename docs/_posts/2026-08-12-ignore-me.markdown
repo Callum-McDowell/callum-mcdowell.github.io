@@ -1,0 +1,8 @@
+---
+layout: post
+title:  "Ignore me :)"
+date:   2026-08-12 11:34:07 +0000
+categories: admin
+---
+
+This is a placeholder, I'm playing around with Jekyll themes.
