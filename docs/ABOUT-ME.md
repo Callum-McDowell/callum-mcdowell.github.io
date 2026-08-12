@@ -1,7 +1,7 @@
 ---
-layout: home
+layout: page
 title: About Me
-permalink: /
+permalink: /about-me
 ---
 
 Hi there! I'm Callum, and I've been doing software engineering and product development for close to four years.
