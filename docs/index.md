@@ -1,5 +1,5 @@
 ---
-page: home
+layout: home
 title: Hello!
 ---
 
