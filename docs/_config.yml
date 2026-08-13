@@ -21,7 +21,7 @@
 title: Callum's Blog
 email: callum.mcdowell@outlook.com
 description: >- # this means to ignore newlines until "baseurl:"
-  My personal site where I occasionally blog about cool or useful things I learned or did.
+  Where I occasionally blog about cool or useful things I learned or did.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://callum-mcdowell.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
