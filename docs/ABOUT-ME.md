@@ -8,7 +8,7 @@ Hi there! I'm Callum, and I've been doing software engineering and product devel
 
 In that time I've worked on a multi-million dollar project throughout its full life-cycle, from concept to delivery and in-market support, and taken on a wide range of responsibilities, including work on user interfaces (UIs), tooling and infrastructure, manufacturing, compliance, and in-market support.
 
-I've implemented user interfaces (UIs) on different platforms: embedded systems (LVGL), Android (Flutter), and desktop amd mobile (Qt). I'm used to working closely with designers and facilitating collaboration between the software and user experience (UX) teams--I believe that supportive and honest relationships are what make teams effective. Along the way I've picked up experience with design systems amd UI best practices (Figma, tokens, AI spec-driven code generation, etc).
+I've implemented user interfaces (UIs) on different platforms: embedded systems (LVGL), Android (Flutter), and desktop amd mobile (Qt). I'm used to working closely with designers and facilitating collaboration between the software and user experience (UX) teams--I believe that supportive and honest relationships are what make teams effective. Along the way I've picked up experience with design systems and UI best practices (Figma, tokens, AI spec-driven code generation, etc).
 
 Clear communication is important to me. I'm used to communicating thoroughly both internally and externally, and I have:
 
