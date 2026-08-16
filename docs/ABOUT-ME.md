@@ -4,11 +4,11 @@ title: About Me
 permalink: /about-me
 ---
 
-Hi there! I'm Callum, and I've been doing software engineering and product development for close to four years.
+Hi there! I'm Callum, and I've been working as a software engineer in the field of product development for close to four years.
 
-In that time I've worked on a multi-million dollar project throughout its full life-cycle, from concept to delivery and in-market support, and taken on a wide range of responsibilities, including work on user interfaces (UIs), tooling and infrastructure, manufacturing, compliance, and in-market support.
+In that time I've worked on a multi-million dollar project throughout its full life-cycle, from concept to delivery and in-market support, and taken on a wide range of responsibilities, including: user interface (UI) development, tooling and infrastructure, testing and verification, AI and agentic workflow integration, manufacturing, compliance, and warranty (customer) support.
 
-I've implemented user interfaces (UIs) on different platforms: embedded systems (LVGL), Android (Flutter), and desktop amd mobile (Qt). I'm used to working closely with designers and facilitating collaboration between the software and user experience (UX) teams--I believe that supportive and honest relationships are what make teams effective. Along the way I've picked up experience with design systems and UI best practices (Figma, tokens, AI spec-driven code generation, etc).
+I've implemented user interfaces (UIs) on different platforms: embedded systems (LVGL), Android (Flutter), and desktop and mobile (Qt). I'm used to working closely with designers and facilitating collaboration between the software and user experience (UX) teams--I believe that supportive and honest relationships are what make teams effective. Along the way I've picked up experience with design systems and UI best practices (Figma, tokens, AI spec-driven code generation, etc).
 
 Clear communication is important to me. I'm used to communicating thoroughly both internally and externally, and I have:
 
@@ -32,6 +32,7 @@ I'm used to working in an agile environment and ran a stint as a scrum master. I
 Here's a non-exhaustive grab-bag list of some of my skills that I haven't mentioned yet:
 
 - hacking together hardware bench setups,
+- git,
 - C++,
 - C,
 - RTOS,
@@ -42,4 +43,4 @@ Here's a non-exhaustive grab-bag list of some of my skills that I haven't mentio
 - Rust,
 - more on request!
 
-**You can get in touch by messaging me on LinkedIn or sending me an email at <callum.mcdowell@outlook.com>.**
+**You can get in touch by messaging me on [LinkedIn](https://www.linkedin.com/in/callum-mcdowell) or sending me an email at <callum.mcdowell@outlook.com>.**
