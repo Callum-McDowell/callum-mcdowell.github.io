@@ -2,8 +2,14 @@
 ---
 // Placeholder front-matter to force Jekyll to detect this file.
 
-// The default GitHub dark style for the Rouge syntax highlighter.
-// Generated with `docker run --rm -it -v $(pwd):/srv/jekyll -u $(id -g):$(id -g) gh-pages-jekyll bash -c 'rougify style github.dark > rouge-style-github.dark.css'
+// The default GitHub dark style for the Rouge syntax highlighter, plus some custom tweaks.
+// The original was generated with `docker run --rm -it -v $(pwd):/srv/jekyll -u $(id -g):$(id -g) gh-pages-jekyll bash -c 'rougify style github.dark > rouge-style-github-dark.css'
+
+// custom tweak: subtly highlight inline code
+code {
+  color: #c9d1d9;
+  background-color: #161b22;
+}
 
 .highlight table td {
   padding: 5px;
@@ -17,6 +23,7 @@
 .highlight .w {
   color: #c9d1d9;
   background-color: #161b22;
+  padding: 0ch 0.5ch; // custom tweak: subtly inset code blocks
 }
 
 .highlight .k,
