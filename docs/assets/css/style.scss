@@ -10,32 +10,17 @@
   max-width: 78ch;
   padding: 0em 1em 3em 1em;
   margin: auto;
-  line-height: 1.75;
+  line-height: 1.75em;
   font-size: 1.1em;
 
   font-family: sans-serif;
   color-scheme: light dark;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: 1.2em;
-}
-
-p,
-ul,
-ol {
-  // TODO: tweak
-}
-
 // Used to inconspicuously display administrivia <p> (e.g. dates, tags, metadata).
 .note {
   color: GrayText;
-  margin: 0em;
+  margin: 0.2em 0em;
 }
 
 // The header contains the site title and navigation and is shown on every screen, so it
@@ -55,7 +40,6 @@ header a {
 }
 
 // The footer is shown on every screen, so it should be simple and unobtrusive.
-// TODO: decide what it needs to display and style it appropriately
 
 footer {
   margin-top: 2.5em;
