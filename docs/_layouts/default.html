@@ -12,7 +12,20 @@
     <link rel="stylesheet" href="/assets/css/rouge-style-github-dark.css" media="(prefers-color-scheme: dark)">
 
     <title>{{ page.title }}</title>
-    <!-- TODO: add SEO stuff like meta tags? -->
+    <meta name="description" content="{{ page.description }}">
+
+    <!-- SEO: -->
+    <meta name="og:locale" content="en_US">
+    <meta name="og:type" content="article">
+    <meta name="og:url" content="{{ absolute_url }}">
+    <meta name="og:site_name" content="{{ site.title }}">
+    <meta name="og:title" content="{{ page.title }}">
+    <meta name="og:description" content="{{ page.description }}">
+    {% if page.header_image %}
+    <meta name="og:image" content="{{ page.header_image }}">
+    {% else %}
+    <meta name="og:image" content="{{ site.logo }}">
+    {% endif %}
 </head>
 
 <body>
