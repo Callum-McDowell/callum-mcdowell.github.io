@@ -30,6 +30,14 @@ logo: "/assets/common/logo.svg"
 plugins:
   - jekyll-feed
 
+# Uncomment to globally enable line numbers on code blocks.
+# Line numbers can be enabled on a per-block basis with `{% highlight $LANGUAGE linenos %}`.
+# kramdown:
+#   syntax_highlighter: rouge
+#   syntax_highlighter_opts:
+#     block:
+#       line_numbers: true
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
