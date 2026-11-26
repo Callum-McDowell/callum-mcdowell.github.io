@@ -18,18 +18,20 @@
 
   font-family: sans-serif;
   color-scheme: light dark;
+
+  --spacing-sm: 1em;
+  --radius-sm: 4px;
 }
 
 // The header contains the site title and navigation and is shown on every screen, so it
 // should be simple and unobtrusive.
-
 header {
   border-bottom: 1px solid GrayText;
 }
 
 header p {
   padding: 0em;
-  margin: 0px;
+  margin: 0em;
 }
 
 header a {
@@ -37,7 +39,6 @@ header a {
 }
 
 // The footer is shown on every screen, so it should be simple and unobtrusive.
-
 footer {
   margin-top: 2.5em;
   border-top: 1px solid GrayText;
@@ -52,7 +53,7 @@ footer {
 // Used to enclose standalone content, like embedded articles.
 .card {
   background-color: ButtonFace;
-  border-radius: 4px;
+  border-radius: var(--radius-sm);
   padding: 0.6rem 1rem;
 }
 
@@ -60,14 +61,14 @@ footer {
 .embedded-post-title-block {
   display: flex;
   flex-wrap: wrap;
-  row-gap: 0ch;
-  column-gap: 2ch;
+  row-gap: 0em;
+  column-gap: var(--spacing-sm);
   justify-content: space-between;
   align-items: baseline;
 }
 
 .embedded-post-title {
-  margin: 0px;
+  margin: 0em;
 }
 
 .embedded-post-date {
@@ -75,5 +76,5 @@ footer {
 }
 
 .embedded-post-description {
-  margin: 0px;
+  margin: 0em;
 }
