@@ -1,7 +1,7 @@
 ---
 layout: page
-title: About Me
 permalink: /about-me
+title: About Me
 ---
 
 Hi there! I'm Callum, and I've been working as a software engineer in the field of product development for close to four years.
