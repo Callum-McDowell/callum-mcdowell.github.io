@@ -4,7 +4,10 @@
 // If this file is not present Jekyll will inject its default style sheet!
 
 // Inspired by http://bettermotherfuckingwebsite.com/ and "100 Bytes of CSS to look
-// great everywhere"
+// great everywhere".
+//
+// Uses system colours for a quick'n'dirty (accessible!) light and dark colour scheme.
+// https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/system-color
 
 :root {
   max-width: 78ch;
@@ -15,12 +18,6 @@
 
   font-family: sans-serif;
   color-scheme: light dark;
-}
-
-// Used to inconspicuously display administrivia <p> (e.g. dates, tags, metadata).
-.note {
-  color: GrayText;
-  margin: 0.2em 0em;
 }
 
 // The header contains the site title and navigation and is shown on every screen, so it
@@ -44,4 +41,39 @@ header a {
 footer {
   margin-top: 2.5em;
   border-top: 1px solid GrayText;
+}
+
+// Used to inconspicuously display administrivia <p> (e.g. dates, tags, metadata).
+.note {
+  color: GrayText;
+  margin: 0.2em 0em;
+}
+
+// Used to enclose standalone content, like embedded articles.
+.card {
+  background-color: ButtonFace;
+  border-radius: 4px;
+  padding: 0.6rem 1rem;
+}
+
+// Used by '_includes/embed_post.html'
+.embedded-post-title-block {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 0ch;
+  column-gap: 2ch;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.embedded-post-title {
+  margin: 0px;
+}
+
+.embedded-post-date {
+  @extend .note;
+}
+
+.embedded-post-description {
+  margin: 0px;
 }
