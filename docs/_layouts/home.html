@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<h1 style="text-align: center; font-size: 4em;">Hello!</h1>
+
+<div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
+    <div style="flex: 1 1 300px;">
+        <p>I'm Callum, a software engineer with experience in product development.</p>
+        <p>You can peruse my posts below. If you'd like to know more about me or get in touch, check out my <a
+                href="/about-me">About Me</a> and <a href="/contact-me">Contact Me</a> pages.</p>
+    </div>
+    <div style="flex: 1 1 300px; height: auto;">
+        <img src="assets/common/portrait_in_landscape.jpg" alt="Me; a self-portrait" ,
+            style="max-width: 100%; height: auto; border-radius: var(--radius-lg);">
+    </div>
+</div>
+
+<h2>Posts</h2>
+
+<div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
+    {% for post in site.posts %}
+    {% include embed_post.html post=post %}
+    {% endfor %}
+</div>
+
+{% include footer.html %}
