@@ -1,6 +1,6 @@
 ---
-layout: page
 permalink: /contact-me
+layout: page
 title: "Contact Me"
 description: "How to get in touch with me"
 ---
