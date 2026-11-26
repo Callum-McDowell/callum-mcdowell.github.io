@@ -2,11 +2,17 @@
 layout: default
 ---
 
-<h1>{{ page.title }}</h1>
-<p class="note">Published on {{ page.date | date: "%-d %B %Y" }}</p>
+{% include header.html %}
 
-{% if page.tags != empty %}
-<p class="note">Tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></p>
-{% endif %}
+<main>
+    <h1>{{ page.title }}</h1>
+    <p class="note">Published on {{ page.date | date: "%-d %B %Y" }}</p>
 
-{{ content }}
+    {% if page.tags != empty %}
+    <p class="note">Tags: <em>{{ page.tags | join: "</em> - <em>" }}</em></p>
+    {% endif %}
+
+    {{ content }}
+</main>
+
+{% include footer.html %}
