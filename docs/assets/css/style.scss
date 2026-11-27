@@ -47,7 +47,7 @@ footer {
 
 // Used to inconspicuously display administrivia <p> (e.g. dates, tags, metadata).
 .note {
-  color: GrayText;
+  color: light-dark(#555555, #dddddd);
   margin: 0.2em 0em;
 }
 
