@@ -1,6 +1,7 @@
 ---
 layout: home
-title: Hello!
+title: "Hello!"
+description: "Where I occasionally blog about cool or useful things I learned or did"
 ---
 
 Edit the `home.html` page directly!
