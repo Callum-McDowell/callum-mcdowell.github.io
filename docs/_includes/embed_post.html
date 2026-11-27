@@ -12,7 +12,7 @@ TODO: display the post's header image, if it has one?
 
 <article class="card">
     <div class="embedded-post-title-block">
-        <h3 class="embedded-post-title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h2>
+        <h3 class="embedded-post-title"><a href="{{ include.post.url }}">{{ include.post.title }}</a></h3>
         <p class="embedded-post-date">{{ include.post.date | date_to_long_string: "ordinal" }}</p>
     </div>
     <p class="embedded-post-description">{{ include.post.description }}</p>
