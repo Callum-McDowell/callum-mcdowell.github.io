@@ -19,6 +19,14 @@ code {
   margin: 0;
 }
 
+// custom tweak: long code blocks scroll rather than overflowing
+.highlighter-rouge {
+  color: #c9d1d9;
+  background-color: #161b22;
+  max-width: 100%;
+  overflow-x: auto;
+}
+
 .highlight,
 .highlight .w {
   color: #c9d1d9;
