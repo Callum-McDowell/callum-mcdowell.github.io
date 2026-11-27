@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<main>
+    <h1 style="text-align: center; font-size: 4em;">Hello!</h1>
+
+    <div style="display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
+        <div style="flex: 1 1 300px;">
+            {{ content }}
+        </div>
+        <div style="flex: 1 1 300px; height: auto;">
+            <img src="/assets/common/portrait_in_landscape_1080x720.jpg" alt="Me; a selfie taken in an alpine field with a snowy Mount Ruapehu in the background"
+                style="max-width: 100%; height: auto; border-radius: var(--radius-lg);">
+        </div>
+    </div>
+
+    <h2>Posts</h2>
+
+    <div style="display: flex; flex-direction: column; gap: var(--spacing-sm);">
+        {% for post in site.posts %}
+        {% include embed_post.html post=post %}
+        {% endfor %}
+    </div>
+</main>
+
+{% include footer.html %}
