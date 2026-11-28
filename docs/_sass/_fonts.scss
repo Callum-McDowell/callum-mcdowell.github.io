@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: fallback;
+  src:
+    local("Atkinson Hyperlegible Next"),
+    local("atkinson-hyperlegible-next"),
+    url('../fonts/AtkinsonHyperlegibleNextVF-Variable.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Mono";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: fallback;
+  src:
+    local("Atkinson Hyperlegible Mono"),
+    local("atkinson-hyperlegible-mono"),
+    url('../fonts/AtkinsonHyperlegibleMonoVF-Variable.woff2') format('woff2');
+}
